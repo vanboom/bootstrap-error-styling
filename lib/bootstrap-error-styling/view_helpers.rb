@@ -1,13 +1,14 @@
-module FoundationErrorStyling
+module BootstrapErrorStyling
   module ViewHelpers
     def flash_class(name)
+      puts name
       case name
       when :notice
-        return "alert-box"
+        return "has-error"
       when :error
-        return ["alert-box","alert"]
+        return ["has-error"]
       else
-      return "alert-box"
+      return "has-error"
       end
     end
   end

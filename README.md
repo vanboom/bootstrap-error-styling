@@ -1,12 +1,12 @@
-# FoundationErrorStyling
+# Bootstrap Error Styling
 
-This gem configures your Ruby on Rails application to style form field errors using Foundation 4 error class tags.  
+This gem configures your Ruby on Rails application to style form field errors using Bootstrap 3 Validation state classes.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'foundation_error_styling'
+    gem 'bootstrap-error-styling'
 
 And then execute:
 
@@ -14,11 +14,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install foundation_error_styling
+    $ gem install bootstrap-error-styling
 
 ## Usage
 
-Write your forms as normal.  When form validation errors appear, the fields will be given a class of "error" per the Zurb Foundation Framework docs instead of the standard rails error class.
+Write your forms as normal.  When form validation errors appear, the fields will be given a class of "has-error" per the Bootstrap validation states.
 
 ## Contributing
 

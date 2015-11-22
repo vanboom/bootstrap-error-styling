@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'foundation_error_styling/version'
+require 'bootstrap-error-styling/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "foundation_error_styling"
-  spec.version       = FoundationErrorStyling::VERSION
+  spec.name          = "bootstrap-error-styling"
+  spec.version       = BootstrapErrorStyling::VERSION
   spec.authors       = ["vanboom"]
   spec.email         = ["dvboom@hotmail.com"]
-  spec.description   = %q{This gem adds error classes to form elements per the Zurb Foundation 4 docs.}
-  spec.summary       = %q{Form error and alert styling for Zurb Foundation 4 Users}
-  spec.homepage      = "http://github.com/vanboom/foundation_error_styling"
+  spec.description   = %q{This gem adds error classes to form elements per Bootstrap 3.}
+  spec.summary       = %q{Form error and alert styling for Bootstrap 3 Users}
+  spec.homepage      = "http://github.com/vanboom/bootstrap-error-styling"
   spec.license       = "MIT"
 
   spec.files         = Dir.glob("{lib}/**/*")
@@ -19,5 +19,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "zurb-foundation", "~> 3.0"
 end

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in foundation_error_styling.gemspec
+# Specify your gem's dependencies in bootstrap-error-styling.gemspec
 gemspec
